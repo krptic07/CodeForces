@@ -1,0 +1,25 @@
+.TextOutline {
+  font-size: 8vw;
+  font-weight: bold;
+  margin: 40px 0px;
+  color: #f4e4c1; /* Fill color */
+  -webkit-text-stroke: 2px black; /* Outline thickness and color */
+}
+
+@media (min-width: 768px) {
+  .TextOutline {
+    font-size: 6vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .TextOutline {
+    font-size: 4vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  .TextOutline {
+    font-size: 3vw;
+  }
+}

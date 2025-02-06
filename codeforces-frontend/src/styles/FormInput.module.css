@@ -1,0 +1,39 @@
+.FormInput {
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 4px 2px;
+  border: 1px solid #2f4f4f;
+  background-color: #f4e4c1;
+  transition: all 0.3s ease;
+}
+
+.FormInput:focus {
+  background: linear-gradient(90deg, #ffcc66, #ff5500, #660033);
+  border-color: #ff5500;
+  outline: none;
+}
+
+.FormInput::placeholder {
+  color: rgba(47, 79, 79, 0.7);
+}
+
+@media (min-width: 768px) {
+  .FormInput {
+    font-size: 14px;
+    padding: 6px 4px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .FormInput {
+    font-size: 16px;
+    padding: 8px 6px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .FormInput {
+    font-size: 18px;
+    padding: 10px 8px;
+  }
+}
