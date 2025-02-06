@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Board from "../../components/Board";
 import socket from "../../socket";
-import Game from "./Game";
+import Game from "../../Redux/models/Game";
 import RoomEntry from "../../components/RoomEntry";
 import useScreenSize, { ScreenSize } from "../../hooks/useScreenSize";
 

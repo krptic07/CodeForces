@@ -1,20 +1,4 @@
 export default class Game {
-  // numBlueFound: number = 0;
-  // numRedFound: number = 0;
-  // teamRedScore: number = Math.round(Math.random() * 1 + 8);
-  // teamBlueScore: number = 17 - this.teamRedScore;
-  // blueTurn: boolean = true;
-  // redTurn: boolean = false;
-  // numBlue: number = 0;
-  // numRed: number = 0;
-  // maxRed: number = this.teamRedScore;
-  // maxBlue: number = this.teamBlueScore;
-  // maxDeath: number = 1;
-  // maxNeutral: number = 7;
-  // gameWords: string[] = [];
-  // customWords: string[] = [];
-  // teams: string[] = [];
-
   public roomId: string = "";
   // public gameOn: boolean = false;
   public redTeamScore: number = 0;
